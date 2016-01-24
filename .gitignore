@@ -1,0 +1,10 @@
+*.log
+*.a
+#但lib.a除外
+!lib.a
+#仅仅忽略项目根目录下的TODO文件，不包括subdir/TODO
+/TODO
+#忽略build/目录下的所有文件
+build/
+
+
